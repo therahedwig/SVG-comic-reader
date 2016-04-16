@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   onresize="checkRatio()"
+   preserveAspectRatio="xMidYMid"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   viewBox="0 0 1488.18896484375 1156.5512"
+   sodipodi:docname="SVG comic reader.svg"
+   width="100%"
+   height="100%">
+  <title
+     id="title4193">SVG comic reader</title>
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="page_clip">
+      <rect
+         style="fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="page_size_rectangle"
+         width="744.09448"
+         height="1052.3622"
+         x="0"
+         y="0"
+         description="intended to clip the pages with, so that all may have a consistent size.">
+        <desc
+           id="desc4170">maximum size of a page, is set as clip to all layers.</desc>
+      </rect>
+    </clipPath>
+  </defs>
+  <style
+     id="style4220">
+     
+.general_button
+{
+fill:#000000;
+fill-opacity:0.31147539;
+fill-rule:nonzero;
+stroke:#ffffff;
+stroke-width:5;
+stroke-linecap:round;
+stroke-linejoin:round;
+stroke-miterlimit:4;
+stroke-opacity:1;
+stroke-dasharray:none
+}
+
+.general_button_w
+{
+fill:#ffffff;
+fill-opacity:0.31147539;
+fill-rule:nonzero;
+stroke:#ffffff;
+stroke-width:5;
+stroke-linecap:round;
+stroke-linejoin:round;
+stroke-miterlimit:4;
+stroke-opacity:1;
+stroke-dasharray:none
+}
+
+.ciphers
+{font-size:140px;
+font-style:normal;
+font-weight:normal;
+line-height:125%;
+letter-spacing:0px;
+word-spacing:0px;
+fill:#ffffff;
+fill-opacity:1;
+stroke:none;
+font-family:Sans;}
+         
+
+.button_text
+{text-anchor:middle;
+font-size:40px;
+font-style:normal;
+font-weight:normal;
+line-height:125%;
+letter-spacing:0px;
+word-spacing:0px;
+fill:#ffffff;
+fill-opacity:1;
+stroke:none;
+font-family:Sans;}
+ 
+.header_text
+{font-size:40px;
+font-style:normal;
+font-weight:normal;
+line-height:125%;
+letter-spacing:0px;
+word-spacing:0px;
+fill:#ffffff;
+fill-opacity:1;
+stroke:none;
+font-family:Sans;}
+.small_text
+{font-size:20px;
+font-style:normal;
+font-weight:normal;
+line-height:125%;
+letter-spacing:0px;
+word-spacing:0px;
+fill:#ffffff;
+fill-opacity:1;
+stroke:none;
+font-family:Sans;}
+                 
+
+.pageshow
+{display:block;}
+
+.pagehide
+{display:none;}
+
+</style>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.29248509"
+     inkscape:cx="166"
+     inkscape:cy="748.44879"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="false"
+     inkscape:snap-page="true"
+     inkscape:window-width="1535"
+     inkscape:window-height="876"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="10"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     borderlayer="true"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>SVG comic reader</dc:title>
+        <dc:date>30-dec-2013</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Wolthera van Hövell tot Westerflier</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>English</dc:language>
+        <dc:description>I'm trying to make an svg/javascript based comicreader. The benefits of SVG are that it resizes the comic appropriately, furthermore, Inkscape provides a good graphical interface for adding pages. The comic-reader has many features, amonst which variable pages visible at a time, right-to-left, automatic recognition of ideal layout, a skip button, the first and last page button, keyboard-control, and last but not least retreiving meta-data and display it in this info-box. I hope you'll like it!</dc:description>
+        <cc:license
+           rdf:resource="GPL 3.0" />
+        <dc:source>http://wolthera.info</dc:source>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="pages"
+     inkscape:label="pages"
+     transform="translate(-4.7258007e-6,101.33186)"
+     style="display:inline">
+    <g
+       inkscape:label="page 1"
+       inkscape:groupmode="layer"
+       id="page_01"
+       style="display:block"
+       clip-path="url(#page_clip)"
+       transform="translate(744.09448,0)">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4062"
+         width="745.71429"
+         height="1054.2858"
+         x="-7.3563765e-06"
+         y="0.93361121" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:1105.9432373px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="57.575138"
+         y="880.91089"
+         id="text4064"
+         sodipodi:linespacing="125%"
+         transform="scale(0.86770499,1.1524654)"><tspan
+           sodipodi:role="line"
+           id="tspan4066"
+           x="57.575138"
+           y="880.91089">A</tspan></text>
+    </g>
+    <g
+       id="page_02"
+       inkscape:groupmode="layer"
+       inkscape:label="page 2"
+       style="display:none"
+       clip-path="url(#page_clip)">
+      <rect
+         y="0.93361121"
+         x="-7.3563765e-06"
+         height="1054.2858"
+         width="745.71429"
+         id="rect4078"
+         style="fill:#ffe680;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         transform="scale(0.86770499,1.1524654)"
+         sodipodi:linespacing="125%"
+         id="text4080"
+         y="880.91089"
+         x="57.575138"
+         style="font-style:normal;font-weight:normal;font-size:1105.9432373px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="880.91089"
+           x="57.575138"
+           id="tspan4082"
+           sodipodi:role="line">B</tspan></text>
+    </g>
+    <g
+       inkscape:label="page 3"
+       inkscape:groupmode="layer"
+       id="page_03"
+       style="display:none"
+       clip-path="url(#page_clip)">
+      <rect
+         style="fill:#87de87;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4086"
+         width="745.71429"
+         height="1054.2858"
+         x="-7.3563765e-06"
+         y="0.93361121" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:1105.9432373px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="57.575138"
+         y="880.91089"
+         id="text4088"
+         sodipodi:linespacing="125%"
+         transform="scale(0.86770499,1.1524654)"><tspan
+           sodipodi:role="line"
+           id="tspan4090"
+           x="57.575138"
+           y="880.91089">C</tspan></text>
+    </g>
+    <g
+       id="page_04"
+       inkscape:groupmode="layer"
+       inkscape:label="page 4"
+       clip-path="url(#page_clip)"
+       style="display:none">
+      <rect
+         y="0.93361121"
+         x="-7.3563765e-06"
+         height="1054.2858"
+         width="745.71429"
+         id="rect4094"
+         style="fill:#00d4aa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         clip-path="url(#clipPath4166)" />
+      <text
+         transform="scale(0.86770499,1.1524654)"
+         sodipodi:linespacing="125%"
+         id="text4096"
+         y="880.91089"
+         x="57.575138"
+         style="font-style:normal;font-weight:normal;font-size:1105.9432373px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="880.91089"
+           x="57.575138"
+           sodipodi:role="line"
+           id="tspan4100">D</tspan></text>
+    </g>
+    <g
+       clip-path="url(#page_clip)"
+       inkscape:label="page 5"
+       inkscape:groupmode="layer"
+       id="g4258"
+       style="display:none">
+      <rect
+         clip-path="url(#clipPath4166)"
+         style="fill:#0044aa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4260"
+         width="745.71429"
+         height="1054.2858"
+         x="-7.3563765e-06"
+         y="0.93361121" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:1105.9432373px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="57.575138"
+         y="880.91089"
+         id="text4262"
+         sodipodi:linespacing="125%"
+         transform="scale(0.86770499,1.1524654)"><tspan
+           id="tspan4264"
+           sodipodi:role="line"
+           x="57.575138"
+           y="880.91089">E</tspan></text>
+    </g>
+    <g
+       id="g4266"
+       inkscape:groupmode="layer"
+       inkscape:label="page 6"
+       style="display:none"
+       clip-path="url(#page_clip)">
+      <rect
+         y="0.93361121"
+         x="-7.3563765e-06"
+         height="1054.2858"
+         width="845.71429"
+         id="rect4268"
+         style="fill:#ff80e5;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         transform="scale(0.86770499,1.1524654)"
+         sodipodi:linespacing="125%"
+         id="text4270"
+         y="880.91089"
+         x="57.575138"
+         style="font-style:normal;font-weight:normal;font-size:1105.9432373px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="880.91089"
+           x="57.575138"
+           sodipodi:role="line"
+           id="tspan4272">F</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="ui_elements"
+     inkscape:label="ui-elements"
+     style="display:inline"
+     transform="translate(-4.7258007e-6,101.33186)">
+    <g
+       id="left_page_button"
+       inkscape:label="#g4278"
+       onclick="leftPage();"
+       transform="translate (14)">
+      <rect
+         inkscape:label="#left_page_button"
+         class="general_button"
+         id="box"
+         width="114.28571"
+         height="97.895584"
+         y="934.46661"
+         ry="27.19322"
+         rx="20">
+        <desc
+           id="desc4136">Left-hand page turning button</desc>
+      </rect>
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path4276"
+         d="m 92.506661,948.64168 c 0,0 -23.359495,24.33281 -64.238618,35.52595 41.852436,12.653 63.751958,35.03927 63.751958,35.03927 z"
+         class="general_button" />
+    </g>
+    <g
+       inkscape:label="#g4278"
+       id="right_page_button"
+       transform="translate (1359.90325484375)"
+       onclick="rightPage();">
+      <rect
+         rx="20"
+         ry="27.19322"
+         y="934.46661"
+         id="right_handbutton"
+         height="97.895584"
+         width="114.28571"
+         class="general_button"
+         x="-114.28571"
+         transform="scale(-1,1)">
+        <desc
+           id="desc4299">Right-hand page turning button</desc>
+      </rect>
+      <path
+         class="general_button"
+         d="m 21.779053,948.64168 c 0,0 23.359495,24.33281 64.238618,35.52595 -41.852436,12.653 -63.751958,35.03927 -63.751958,35.03927 z"
+         id="path4301"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <g
+       id="option_box"
+       style="display:none"
+       transform="translate (372.0472412109375)">
+      <rect
+         rx="65"
+         ry="65"
+         y="72.362198"
+         x="34"
+         height="745.71429"
+         width="674.28571"
+         id="rect_options"
+         class="general_button" />
+      <path
+         inkscape:transform-center-x="1.3242693"
+         d="m 356.4206,470.00216 -14.19723,-24.54516 28.35535,-0.0226 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.57"
+         sodipodi:arg1="1.57"
+         sodipodi:r2="21.9652"
+         sodipodi:r1="16.370972"
+         sodipodi:cy="453.6312"
+         sodipodi:cx="356.40756"
+         sodipodi:sides="3"
+         id="ac_down"
+         onclick="a_p = a_p-1; aPageChange();"
+         class="general_button_w"
+         sodipodi:type="star"
+         inkscape:label="#path5484"
+         transform="matrix(1.9635269,0,0,1.9085497,-327.75579,-428.35971)" />
+      <path
+         sodipodi:type="star"
+         class="general_button_w"
+         id="ac_up"
+         onclick="a_p = a_p+1; aPageChange();"
+         sodipodi:sides="3"
+         sodipodi:cx="-372.03448"
+         sodipodi:cy="-297.54315"
+         sodipodi:r1="32.076904"
+         sodipodi:r2="43.038109"
+         sodipodi:arg1="1.57"
+         sodipodi:arg2="1.57"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m -372.00894,-265.46626 -27.81772,-48.09322 55.55881,-0.0442 z"
+         transform="scale(-1,-1)"
+         inkscape:transform-center-x="-1.3214962"
+         inkscape:label="#path5490" />
+      <text
+         sodipodi:linespacing="125%"
+         id="a_pages"
+         y="392.67786"
+         x="373.90271"
+         style="font-size:80px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve">Auto</text>
+      <text
+         xml:space="preserve"
+         class="header_text"
+         x="90"
+         y="147.21933"
+         id="text4163"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4165"
+           x="90"
+           y="147.21933">Configuration:</tspan></text>
+      <text
+         xml:space="preserve"
+         class="small_text"
+         x="90"
+         y="195.21935"
+         id="text4167"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="90"
+           y="195.21935"
+           id="tspan4171">Choose the amount of pages you wish to have</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="226.46935"
+           id="tspan4173">display at once on the screen:</tspan></text>
+      <g
+         id="b_page_offset"
+         inkscape:label="#g4423"
+         onclick="toggleOffset(); pageOffsetHandler();">
+        <rect
+           class="general_button"
+           rx="20"
+           ry="20"
+           y="507.21936"
+           x="75.999985"
+           height="66"
+           width="590"
+           id="rect4419" />
+        <text
+           inkscape:label="#text4387"
+           sodipodi:linespacing="125%"
+           id="c_page_offset-t"
+           y="553.25452"
+           x="374.60742"
+           class="header_text"
+           style="text-anchor:middle; fill:#999999;"
+           xml:space="preserve">Page-offset: On(Auto)</text>
+      </g>
+      <g
+         id="b_reading"
+         inkscape:label="#g4428"
+         onclick="toggleReading();">
+        <rect
+           class="general_button"
+           id="rect4421"
+           width="590"
+           height="66"
+           x="75.999985"
+           y="595.21936"
+           ry="20"
+           rx="20" />
+        <text
+           inkscape:label="#text4391"
+           sodipodi:linespacing="125%"
+           id="c_reading-t"
+           y="643.25452"
+           x="378.07422"
+           class="header_text"
+           style="text-anchor:middle;"
+           xml:space="preserve"><tspan
+             y="643.25452"
+             x="378.07422"
+             id="tspan4393"
+             sodipodi:role="line">Reading-order: Left to right.</tspan></text>
+      </g>
+    </g>
+    <g
+       id="skip_box"
+       style="display:none"
+       transform="translate (372.0472412109375)">
+      <rect
+         inkscape:label="#rect4274"
+         rx="65"
+         ry="65"
+         y="72.362198"
+         x="34"
+         height="745.71429"
+         width="674.28571"
+         id="rect_skip"
+         class="general_button" />
+      <text
+         xml:space="preserve"
+         class="ciphers"
+         x="207.43973"
+         y="456.71979"
+         id="cipher3"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5462"
+           x="207.43973"
+           y="456.71979">0</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="cipher2"
+         y="456.71979"
+         x="312.57538"
+         class="ciphers"
+         xml:space="preserve"><tspan
+           y="456.71979"
+           x="312.57538"
+           id="tspan5466"
+           sodipodi:role="line">0</tspan></text>
+      <text
+         xml:space="preserve"
+         class="ciphers"
+         x="417.71103"
+         y="456.71979"
+         id="cipher1"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5470"
+           x="417.71103"
+           y="456.71979">0</tspan></text>
+      <text
+         xml:space="preserve"
+         x="90"
+         y="167.65303"
+         id="text5472"
+         class="header_text"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5474"
+           x="90"
+           y="167.65303">Skip to page:</tspan></text>
+      <text
+         xml:space="preserve"
+         class="small_text"
+         x="90"
+         y="212.12029"
+         id="text5476"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5478"
+           x="90"
+           y="212.12029">Use the buttons to set the page number</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="243.37029"
+           id="tspan5480">you wish to skip to:</tspan></text>
+      <path
+         sodipodi:type="star"
+         class="general_button_w"
+         id="1c_down"
+         onclick="firstcipher = firstcipher-1; drawSkip();"
+         sodipodi:sides="3"
+         sodipodi:cx="462.28189"
+         sodipodi:cy="501.43549"
+         sodipodi:r1="28.686213"
+         sodipodi:r2="38.488762"
+         sodipodi:arg1="1.57"
+         sodipodi:arg2="1.57"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 462.30473,530.12169 -24.87724,-43.00952 49.68596,-0.0396 z"
+         inkscape:transform-center-x="1.1817795"
+         inkscape:label="#path5482"
+         inkscape:transform-center-y="-1.127136e-05" />
+      <path
+         inkscape:transform-center-x="1.1817826"
+         d="m 357.16908,530.12169 -24.87724,-43.00952 49.68596,-0.0396 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.57"
+         sodipodi:arg1="1.57"
+         sodipodi:r2="38.488762"
+         sodipodi:r1="28.686213"
+         sodipodi:cy="501.43549"
+         sodipodi:cx="357.14624"
+         sodipodi:sides="3"
+         id="path4124"
+         onclick="secondcipher = secondcipher-1; drawSkip();"
+         class="general_button_w"
+         sodipodi:type="star"
+         inkscape:label="#path5484"
+         inkscape:transform-center-y="-1.127136e-05" />
+      <path
+         sodipodi:type="star"
+         class="general_button_w"
+         id="3c_down"
+         onclick="thirdcipher = thirdcipher-1; drawSkip();"
+         sodipodi:sides="3"
+         sodipodi:cx="252.01059"
+         sodipodi:cy="501.43549"
+         sodipodi:r1="28.686213"
+         sodipodi:r2="38.488762"
+         sodipodi:arg1="1.57"
+         sodipodi:arg2="1.57"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 252.03343,530.12169 -24.87724,-43.00952 49.68596,-0.0396 z"
+         inkscape:transform-center-x="1.1817857"
+         inkscape:label="#path5486"
+         inkscape:transform-center-y="-1.127136e-05" />
+      <path
+         d="m -462.23622,-279.3149 -24.87725,-43.00952 49.68597,-0.0396 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.57"
+         sodipodi:arg1="1.57"
+         sodipodi:r2="38.488762"
+         sodipodi:r1="28.686213"
+         sodipodi:cy="-308.0011"
+         sodipodi:cx="-462.25906"
+         sodipodi:sides="3"
+         id="1c_up"
+         onclick="firstcipher = firstcipher+1; drawSkip();"
+         class="general_button_w"
+         sodipodi:type="star"
+         transform="scale(-1,-1)"
+         inkscape:transform-center-x="-1.1818248"
+         inkscape:label="#path5488"
+         inkscape:transform-center-y="1.127136e-05" />
+      <path
+         sodipodi:type="star"
+         class="general_button_w"
+         id="path4128"
+         onclick="secondcipher = secondcipher+1; drawSkip();"
+         sodipodi:sides="3"
+         sodipodi:cx="-357.12341"
+         sodipodi:cy="-308.0011"
+         sodipodi:r1="28.686213"
+         sodipodi:r2="38.488762"
+         sodipodi:arg1="1.57"
+         sodipodi:arg2="1.57"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m -357.10057,-279.3149 -24.87725,-43.00952 49.68597,-0.0396 z"
+         transform="scale(-1,-1)"
+         inkscape:transform-center-x="-1.1818217"
+         inkscape:label="#path5490"
+         inkscape:transform-center-y="1.127136e-05" />
+      <path
+         d="m -251.9649,-279.3149 -24.87725,-43.00952 49.68596,-0.0396 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.57"
+         sodipodi:arg1="1.57"
+         sodipodi:r2="38.488762"
+         sodipodi:r1="28.686213"
+         sodipodi:cy="-308.0011"
+         sodipodi:cx="-251.98775"
+         sodipodi:sides="3"
+         id="3c_up"
+         onclick="console.log('thirdskipup');thirdcipher= thirdcipher+1; drawSkip();"
+         class="general_button_w"
+         sodipodi:type="star"
+         transform="scale(-1,-1)"
+         inkscape:transform-center-x="-1.1818034"
+         inkscape:label="#path5492"
+         inkscape:transform-center-y="1.127136e-05" />
+      <g
+         id="skip_confirm"
+         onclick="skipTo();showHide('skip_box');">
+        <rect
+           class="general_button"
+           rx="20"
+           ry="20"
+           width="285"
+           height="102"
+           x="212.99998"
+           y="592.21936"
+           id="rect4132" />
+        <text
+           xml:space="preserve"
+           class="header_text"
+           style="text-anchor:middle;"
+           x="360"
+           y="654.21936"
+           id="text5496"
+           sodipodi:linespacing="125%">Skip</text>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       inkscape:label="#summary_box"
+       id="summary_box"
+       style="display:none"
+       transform="translate(372.04724,0)">
+      <rect
+         inkscape:label="#rect4274"
+         rx="65"
+         ry="65"
+         y="72.362198"
+         x="34"
+         height="745.71429"
+         width="674.28571"
+         id="rect4855"
+         class="general_button"
+         style="fill:#000000;fill-opacity:0.31147539;fill-rule:nonzero;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         inkscape:label="#text4303"
+         sodipodi:linespacing="125%"
+         id="text-title"
+         y="180"
+         x="90"
+         class="small_text"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         xml:space="preserve">Title: SVG comic reader</text>
+      <text
+         inkscape:label="#text4335"
+         sodipodi:linespacing="125%"
+         id="text-author"
+         y="240"
+         x="90"
+         class="small_text"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">By: Wolthera van Hövell tot Westerflier</text>
+      <text
+         id="text-date"
+         y="280"
+         x="90"
+         class="small_text"
+         xml:space="preserve"
+         sodipodi:linespacing="125%"
+         style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">Published: 30-dec-2013</text>
+      <text
+         xml:space="preserve"
+         class="small_text"
+         x="90"
+         y="320"
+         id="text-summary"
+         sodipodi:linespacing="125%"
+         inkscape:label="#text4659"
+         style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"><tspan
+           sodipodi:role="line"
+           id="tspan4661"
+           x="90"
+           y="320"
+           class="small_text"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">Summary: I'm trying to make an svg/javascript based</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="345"
+           class="small_text"
+           id="tspan4663"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">comicreader. The benefits of SVG are that it resizes</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="370"
+           class="small_text"
+           id="tspan4665"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">the comic appropriately, furthermore, Inkscape</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="395"
+           class="small_text"
+           id="tspan4667"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">provides a good graphical interface for adding pages.</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="420"
+           class="small_text"
+           id="tspan4669"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">The comic-reader has many features, amonst which</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="445"
+           class="small_text"
+           id="tspan4671"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">variable pages visible at a time, right-to-left,</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="470"
+           class="small_text"
+           id="tspan4673"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">automatic recognition of ideal layout, a skip button,</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="495"
+           class="small_text"
+           id="tspan4675"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">the first and last page button, keyboard-control, and</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="520"
+           class="small_text"
+           id="tspan4679"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">last but not least retreiving meta-data and display it</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="545"
+           class="small_text"
+           id="tspan4683"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none">in this info-box. I hope you'll like it!</tspan><tspan
+           sodipodi:role="line"
+           x="90"
+           y="570"
+           class="small_text"
+           id="tspan4685"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none" /><tspan
+           sodipodi:role="line"
+           x="90"
+           y="595"
+           class="small_text"
+           id="tspan4687"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none" /><tspan
+           sodipodi:role="line"
+           x="90"
+           y="620"
+           class="small_text"
+           id="tspan4689"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none" /><tspan
+           sodipodi:role="line"
+           x="90"
+           y="645"
+           class="small_text"
+           id="tspan4691"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none" /><tspan
+           sodipodi:role="line"
+           x="90"
+           y="670"
+           class="small_text"
+           id="tspan4693"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none" /></text>
+    </g>
+    <g
+       id="b_return"
+       transform="translate(14)"
+       inkscape:label="#g4363"
+       onclick="firstPage();console.log('first ticked');">
+      <rect
+         inkscape:label="#return"
+         rx="20"
+         ry="20"
+         y="-91.331856"
+         height="67.591011"
+         width="228.57142"
+         id="b_returnr"
+         class="general_button"
+         x="0">
+        <desc
+           id="desc4140">Returns to first page</desc>
+      </rect>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4359"
+         y="-42.624241"
+         x="0"
+         class="button_text"
+         xml:space="preserve"
+         transform="translate (114.28571)">First</text>
+    </g>
+    <g
+       id="b_summary"
+       inkscape:label="#g4373"
+       transform="translate (321.9043862109375)"
+       onclick="console.log('info ticked'); showHide('summary_box');">
+      <rect
+         inkscape:label="#summary"
+         rx="20"
+         ry="20"
+         y="-91.331856"
+         height="67.591011"
+         width="228.57142"
+         id="b_summaryr"
+         class="general_button"
+         x="0">
+        <desc
+           id="desc4142">toggles a block with meta-data/summary</desc>
+      </rect>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4369"
+         y="-42.624241"
+         class="button_text"
+         xml:space="preserve"
+         x="0"
+         transform="translate (114.28571)">Info</text>
+    </g>
+    <g
+       id="b_options"
+       inkscape:label="#g4383"
+       transform="translate (629.808772421875)"
+       onclick="console.log('config ticked'); showHide('option_box');">
+      <rect
+         inkscape:label="#b_options"
+         class="general_button"
+         id="b_optionsr"
+         width="228.57142"
+         height="67.591011"
+         y="-91.331856"
+         ry="20"
+         rx="20"
+         x="0">
+        <desc
+           id="desc4144">gives comic reader options</desc>
+      </rect>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4379"
+         y="-42.624241"
+         class="button_text"
+         xml:space="preserve"
+         x="0"
+         transform="translate (114.28571)">Conf</text>
+    </g>
+    <g
+       id="b_skip"
+       inkscape:label="#g4393"
+       transform="translate (937.7131586328126)"
+       onclick="console.log('skip ticked'); showHide('skip_box');">
+      <rect
+         inkscape:label="#b_skip"
+         rx="20"
+         ry="20"
+         y="-91.331856"
+         height="67.591011"
+         width="228.57142"
+         id="b_skipr"
+         class="general_button"
+         x="-6.6757202e-06">
+        <desc
+           id="desc4146">skip to page button.</desc>
+      </rect>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4389"
+         class="button_text"
+         xml:space="preserve"
+         transform="translate (114.28571)"><tspan
+           y="-42.624241"
+           id="tspan4391"
+           sodipodi:role="line"
+           x="0">Skip</tspan></text>
+    </g>
+    <g
+       id="b_forward"
+       inkscape:label="#g4403"
+       transform="translate (1245.61754484375)"
+       onclick="console.log('last ticked'); lastPage();">
+      <rect
+         inkscape:label="#fast_forward"
+         class="general_button"
+         id="b_forwardr"
+         width="228.57142"
+         height="67.591011"
+         y="-91.331856"
+         ry="20"
+         rx="20"
+         x="0">
+        <desc
+           id="desc4148">goes to last-page.</desc>
+      </rect>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4399"
+         y="-42.624241"
+         class="button_text"
+         xml:space="preserve"
+         x="0"
+         transform="translate (114.28571)">Last</text>
+    </g>
+  </g>
+  <script
+     type="text/javascript"
+     id="script4256"><![CDATA[
+
+var option_layout = 0; //for deciding how the pages are drawn, '0' is dynamically decided, '1' is chosen by user.//
+var amount_pages = 0; //for definitive awnswer how pages are drawn. '0' is a faulty value, '1' ids signle, '2' is double, etc.//
+var page_offset = 0; //for page ofset, either 0 or 1.
+var reading_order = 1;//1 is LTR, 0 is RTL
+var at_page = 0; //for tracking the current page.
+var object_array_pages = [0];//for initalizing.
+var total_pages = object_array_pages.length;
+var cipher0 = "0";
+var firstcipher=0;
+var secondcipher=0;
+var thirdcipher=0;
+var a_p=0;
+var meta_data=[];
+var meta_summary=[];
+var page_width = 0;
+var resize_width = 0;
+
+window.onload = p_initialize();
+
+
+//initialise
+function p_initialize() { 
+object_array_pages = document.getElementById("pages").getElementsByTagName("g"); //for tracking the groups that contain pages.
+total_pages = object_array_pages.length;
+
+for (i=0; i<total_pages; i++) {object_array_pages[i].setAttribute("clip-path", "url(#page_clip)"); }	
+
+//I want to extra extract the meta-data and then draw it into the text-box.
+//But it's very error-prone right now because it's a wonky meta-data extract.
+
+//var meta_data_string= document.getElementsByTagName("metadata")[0].textContent;
+//meta_data[1] = "Wolthera";
+//meta_data[2] = document.getElementsByTagName('dc:date')[0].textContent;
+//meta_data[3] = "A comic reader.";
+//meta_data = meta_data_string.split(/(\r\n|\n|\r)/gm);
+
+//for (i=0; i<meta_data.length;i++) {meta_data[i]=meta_data[i].replace(/\s\s+/,""); meta_data[i]=meta_data[i].replace(/(\r\n|\n|\r)/gm,"")}
+//meta_data = meta_data.filter(function(n){return n});
+//console.log(meta_data);
+
+meta_data[1] = document.getElementsByTagNameNS('http://purl.org/dc/elements/1.1/', 'title')[0].textContent;
+meta_data[2] = document.getElementsByTagNameNS('http://purl.org/dc/elements/1.1/', 'date')[0].textContent;
+meta_data[3] = document.getElementsByTagNameNS('http://purl.org/dc/elements/1.1/', 'creator')[0].getElementsByTagNameNS('http://purl.org/dc/elements/1.1/', 'title')[0].textContent;
+meta_data[4] = document.getElementsByTagNameNS('http://purl.org/dc/elements/1.1/', 'description')[0].textContent;
+
+var maxChars=54;
+var amSentences = 0;
+var sentence_break = maxChars;
+var new_sentence = 0;
+
+meta_summary[0] = "Summary: "+meta_data[4];
+if (meta_summary[0].length>maxChars){amSentences = Math.ceil(meta_summary[0].length/(maxChars-20));
+
+for (i=0; i<amSentences; i++){
+sentence_break = maxChars;
+	if(meta_summary[0].charAt(new_sentence+sentence_break) != " " && meta_summary[0].length >= (new_sentence+sentence_break) ){
+			for(j=maxChars;j>0;j--){
+				
+				if(meta_summary[0].charAt(j+new_sentence) == " " )
+					{sentence_break=j; j=0;}
+			}
+		}
+meta_summary[i+1]=meta_summary[0].substr( (new_sentence), sentence_break) ;
+new_sentence=new_sentence+1+sentence_break;
+
+document.getElementById('text-summary').getElementsByTagName('tspan')[i].textContent = meta_summary[i+1] ;
+
+}
+}
+//console.log(meta_summary);
+
+
+document.getElementById('text-title').textContent = "Title: "+meta_data[1];
+document.getElementById('text-author').textContent = "By: "+meta_data[3];
+document.getElementById('text-date').textContent = "Published: "+meta_data[2];
+
+if (amount_pages < 1){amount_pages=1;}
+resize_width = document.getElementById('b_optionsr').getAttribute('width');
+
+rearrangeLayout();
+//redrawEverything(0);//redraw all pages, is already in reaarangelayout>page-offset>redraweverything
+
+}
+
+function rearrangeLayout(){
+//probably need to simplify this code by group some similar elements and then retrieving them into an array.
+//Afterthat abstracting everything and executing stuff with for-loops.
+
+if (amount_pages < 1){amount_pages=1;}//we will NOT draw less than one page at a time.//
+if (reading_order>1 || reading_order<0){reading_order=1;}
+
+//rearranging the viewbox
+var layout = document.getElementsByTagName("svg")[0];
+page_width = document.getElementById('page_size_rectangle').width.baseVal.value;//grrrr domme DOM.
+layout.setAttribute("viewBox", "0 0 " + (page_width*amount_pages) + " 1156.5512");
+
+
+
+//resizing the buttons depending on how many pages are visible at a time: More pages visible at a time, the more touch area we need.
+document.getElementById('b_returnr').setAttribute('width' ,resize_width*amount_pages);
+document.getElementById('b_summaryr').setAttribute('width' ,resize_width*amount_pages);
+document.getElementById('b_optionsr').setAttribute('width' ,resize_width*amount_pages);
+document.getElementById('b_skipr').setAttribute('width' ,resize_width*amount_pages);
+document.getElementById('b_forwardr').setAttribute('width' ,resize_width*amount_pages);
+
+
+//simplifying some translation values.
+var button_margin = 14;
+var mid_button_p = (((page_width*amount_pages)/2)-(document.getElementById('b_optionsr').getAttribute('width')/2));
+var last_button_p = (page_width*amount_pages-button_margin-document.getElementById('b_forwardr').getAttribute('width'));
+
+//this is silly button rearrganging.
+document.getElementById('b_return').setAttribute("transform", "translate("+button_margin+")");
+document.getElementById('b_return').getElementsByTagName('text')[0].setAttribute("transform", "translate ("+((resize_width*amount_pages)/2)+")");
+document.getElementById('b_summary').setAttribute("transform", "translate ("+(mid_button_p+button_margin)/2 +")");
+document.getElementById('b_summary').getElementsByTagName('text')[0].setAttribute("transform", "translate ("+(resize_width*amount_pages)/2+")");
+document.getElementById('b_options').setAttribute("transform", "translate ("+ mid_button_p +")");
+document.getElementById('b_options').getElementsByTagName('text')[0].setAttribute("transform", "translate ("+(resize_width*amount_pages)/2+")");
+document.getElementById('b_skip').setAttribute("transform", "translate ("+ ((mid_button_p+last_button_p)/2) +")");
+document.getElementById('b_skip').getElementsByTagName('text')[0].setAttribute("transform", "translate ("+(resize_width*amount_pages)/2+")");
+document.getElementById('b_forward').setAttribute("transform", "translate ("+ last_button_p +")");
+document.getElementById('b_forward').getElementsByTagName('text')[0].setAttribute("transform", "translate ("+(resize_width*amount_pages)/2+")");
+
+
+document.getElementById('summary_box').setAttribute("transform", "translate ("+((amount_pages-1)*page_width)/2+")");
+document.getElementById('option_box').setAttribute("transform", "translate ("+((amount_pages-1)*page_width)/2+")");
+document.getElementById('skip_box').setAttribute("transform", "translate ("+((amount_pages-1)*page_width)/2+")");
+//rearranging the page-buttons.
+document.getElementById('left_page_button').setAttribute("transform", "translate ("+button_margin+")");
+document.getElementById('right_page_button').setAttribute("transform", "translate ("+(page_width*amount_pages-document.getElementById('right_handbutton').getAttribute('width')-button_margin)+")" );
+
+
+pageOffsetHandler();
+}
+
+//I want to chuck in code for resizing the viewbox//
+//check the width versus the height and base of that the ideal(1 or 2 paged) layout//
+//either way, this probably ought to not be triggered if a certain option is ticked//
+
+function checkRatio () { 
+//console.log("resize!"+window.innerWidth);
+    if (option_layout==0)
+	{ 
+		if (window.innerWidth>window.innerHeight) {
+			amount_pages = 2;
+			page_offset = 1;
+			rearrangeLayout();
+			redrawEverything(at_page);
+ 		
+		}
+		if (window.innerWidth<window.innerHeight) {
+			amount_pages = 1;
+			page_offset = 0;
+			rearrangeLayout();
+			redrawEverything(at_page);
+ 		
+		}
+    }
+};
+
+
+
+//I need to have a redraw function for both double-page as well as single page//
+function redrawEverything (is_page){
+
+	
+	if (amount_pages < 1){amount_pages=1;}//we will NOT draw less than one page at a time.//
+	if (at_page < 0){ 
+	if(((total_pages+page_offset)%amount_pages)==0){
+	at_page =(total_pages+page_offset)-(amount_pages-page_offset);
+	}
+	else{
+	
+	at_page = (total_pages)-((total_pages)%amount_pages);
+	console.log("elsecase"+at_page);
+	}
+	}
+	//so that if you flip back from the start you end up at the end of the comic.
+	//after an hour of fixing a page_offset bug with the above code, I figured there's something really awkward about how I handle page_offset...
+	if (at_page >= total_pages+page_offset){at_page = 0; }//so if you flip further than the  total_pages, you end up at the start.
+	//
+	
+		is_page = at_page;//is page needs to be at_page, there's something thoroughy funky about is_page here...//
+		at_page = (is_page-(is_page%amount_pages));//to make sure that the pages stay constently paired up//
+		
+		for(var i=0;i<total_pages;i++){object_array_pages[i].style.display = "none";} //first hide all pages
+		if(at_page==0){
+		for(var i=0;i<(amount_pages-page_offset);i++)//select a set
+			{
+			if(reading_order==1)
+				{
+				object_array_pages[at_page+i].setAttribute("transform", "translate("+((i+page_offset)*page_width)+", 0)"); //then set the x position of the set of pages we need.
+				object_array_pages[at_page+i].style.display = "block";
+				}
+			
+			else
+				{
+				object_array_pages[at_page+i].setAttribute("transform", "translate("+(((amount_pages-i-1)-page_offset)*page_width)+", 0)"); //then set the x position of the set of pages we need.
+				object_array_pages[at_page+i].style.display = "block";
+				}
+			}
+		}
+		else{		
+		for(var i=0;i<(amount_pages);i++)//select a set
+			{
+			if(reading_order==1)
+				{
+					if(at_page+i-page_offset<total_pages){
+					object_array_pages[at_page+i-page_offset].setAttribute("transform", "translate("+(i*page_width)+", 0)"); //then set the x position of the set of pages we need.
+					object_array_pages[at_page+i-page_offset].style.display = "block";
+					}
+				}
+			else
+				{
+				if(at_page+i-page_offset<total_pages){
+					object_array_pages[at_page+i-page_offset].setAttribute("transform", "translate("+((amount_pages-i-1)*page_width)+", 0)"); //then set the x position of the set of pages we need.
+					object_array_pages[at_page+i-page_offset].style.display = "block";}
+					
+				}
+			}
+			//console.log(at_page);			
+			} //and show the set of pages we need//
+
+	
+	
+	
+}
+
+//Code for displaying the different boxes.//
+
+function pageOffsetHandler()
+{
+	if (option_layout==0)
+	{
+	page_offset=1;
+	document.getElementById("c_page_offset-t").textContent = "Page-offset: On(Auto)";
+	document.getElementById("c_page_offset-t").style.fill = "#999999";
+	}
+	else
+	{
+	//page-offset becomes visible//
+		if (page_offset==0){
+		document.getElementById("c_page_offset-t").textContent = "Page-offset: Off";
+		document.getElementById("c_page_offset-t").style.fill = "#ffffff";
+		}
+		else{
+		if (amount_pages==1){
+		page_offset=0;
+		document.getElementById("c_page_offset-t").textContent = "Page-offset: Off";
+		document.getElementById("c_page_offset-t").style.fill = "#999999";
+		}
+		else{
+		document.getElementById("c_page_offset-t").textContent = "Page-offset: On";
+		document.getElementById("c_page_offset-t").style.fill = "#ffffff";}
+		}
+		redrawEverything(at_page);
+	//else page offset is on.
+	}
+}
+
+function showHide (guiwindow){
+var gwindow = document.getElementById(guiwindow);
+	if (gwindow.style.display=="none")
+	{
+	document.getElementById('summary_box').style.display="none";
+	document.getElementById('option_box').style.display="none";
+	document.getElementById('skip_box').style.display="none";
+	gwindow.style.display="block";}
+	else {
+		gwindow.style.display="none";
+	}
+}
+//this brings the reader back to the first page//
+function firstPage()
+{
+at_page= 0;
+redrawEverything(at_page)
+}
+
+//this send the reader to the last page//
+function lastPage()
+{
+at_page=(document.getElementById("pages").getElementsByTagName("g").length-1);
+redrawEverything(at_page);
+}
+
+//this controls the ui for the skipping option//
+function drawSkip()
+{
+
+
+if(firstcipher<0){firstcipher=0;}
+if(secondcipher<0){secondcipher=0;}
+if(thirdcipher<0){thirdcipher=0;}
+if(firstcipher>9){firstcipher=9;}
+if(secondcipher>9){secondcipher=9;}
+if(thirdcipher>9){thirdcipher=9;}
+
+document.getElementById('cipher1').textContent = firstcipher;
+document.getElementById('cipher2').textContent = secondcipher;
+document.getElementById('cipher3').textContent = thirdcipher;
+console.log(firstcipher);
+}
+
+//this function is to track how many pages are configed in the configurations//
+function aPageChange(){
+
+
+if(a_p<=0){a_p=0;}
+
+if(a_p>9){a_p=9;}
+
+if(a_p>0){option_layout=1;document.getElementById('a_pages').textContent = a_p;}
+else{option_layout=0;document.getElementById('a_pages').textContent = "Auto";}
+amount_pages= a_p;
+rearrangeLayout();
+redrawEverything(at_page);
+
+}
+
+//the actual skipping function//
+//maybe this comic reader has too many global variables :(//
+function skipTo()
+{
+var which_page= page_offset+(firstcipher*1)+(secondcipher*10)+(thirdcipher*100)-1;
+if (which_page>page_offset+total_pages){which_page=total_pages-1+page_offset;}
+if (which_page<1){which_page=1;}
+console.log(which_page);
+at_page=which_page;
+ 
+redrawEverything(at_page);
+}
+
+function toggleOffset()
+{
+if (page_offset==0){page_offset=1;}else{page_offset=0;};
+}
+
+function toggleReading()
+{
+if (reading_order==0){reading_order=1;
+document.getElementById("c_reading-t").textContent = "Reading-order: Left to Right.";
+}else{
+reading_order=0;
+document.getElementById("c_reading-t").textContent = "Reading-order: Right to Left.";};
+		redrawEverything(at_page);
+}
+
+function leftPage()
+{
+if(reading_order==1){at_page=at_page-amount_pages;}else{at_page=at_page+amount_pages;}
+redrawEverything(at_page);
+cipher0 = at_page.toString();
+
+if(cipher0.length>0){firstcipher = Math.round(cipher0[cipher0.length-1]);}else{firstcipher = 0;}
+if(cipher0.length>1){secondcipher = Math.round(cipher0[cipher0.length-2]);}else{secondcipher = 0;}
+if(cipher0.length>2){thirdcipher = Math.round(cipher0[cipher0.length-3]);}else{thirdcipher = 0;}
+drawSkip();
+
+}
+
+function rightPage()
+{
+if(reading_order==1){at_page=at_page+amount_pages;}else{at_page=at_page-amount_pages;}
+redrawEverything(at_page);
+cipher0 = at_page.toString();
+
+if(cipher0.length>0){firstcipher = Math.round(cipher0[cipher0.length-1]);}else{firstcipher = 0;}
+if(cipher0.length>1){secondcipher = Math.round(cipher0[cipher0.length-2]);}else{secondcipher = 0;}
+if(cipher0.length>2){thirdcipher = Math.round(cipher0[cipher0.length-3]);}else{thirdcipher = 0;}
+drawSkip();
+
+}
+
+function keyHandler( e )
+{
+
+if( !e )
+{
+e = window.event;
+}
+arrowLeft = 37;
+arrowRight = 39;
+
+switch( e.keyCode )
+{
+case arrowLeft:
+leftPage();
+break;
+case arrowRight:
+rightPage();
+break;
+}
+}
+
+window.onkeydown = keyHandler;
+
+//function to make sure that the best layout is checked.//
+setInterval(checkRatio, 2000);
+
+
+]]></script>
+</svg>
