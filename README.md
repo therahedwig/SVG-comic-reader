@@ -19,13 +19,15 @@ It has several features, including:
 * Switching pages with the left and right keys on your keyboard.
 * Taking meta-data from the Inkscape properties dialogue to fill up the info box with important information like the author, the date of publishing and of course a summary.
 * Raw javascript, so no weird libraries from god-knows-where.
+* CSS styles UI elements, so you can change the CSS inside easily.
 
 ## How to use:
 
 * Get the newest version of Inkscape!
 * Open the file with Inkscape.
-* In the pages layer, you can see a bunch of hidden layers. Each layer directly under the pages layer will become a new page, so just add a sublayer for that.
+* In the pages layer, you can see a bunch of hidden layers. Each layer directly under the pages layer will become a new page, so just add a sublayer for that. You are best off trying to copy a sublayer, so that you can use it’s page-clip to make sure everything’s the right size, but the page clip will be automatically added if you forget about it.
 * When adding images, it is best to ‘embed’ them, so that the SVG will be standalone. Of course, you might have reasons to want to easily access the pages on your server, so ‘linking’ them is also perfectly possible, just make sure you keep the relative paths.
+* Use the page_clip area to align your image properly. If you need to move a page for lining up, translate the layer it is on, and keep the page_clip in place. the javascript will move everything into place by using the page_clip area.
 * You can edit the UI elements to look prettier. Just do not delete them or rename their ID.
 * For meta-data, use the document properties and then go into Meta-data.
 * Also check the license section. The file is marked with ‘GPL3.0’, which is necessary for you to edit the example content legally, but you might want to change it as it affects the images you put in.
